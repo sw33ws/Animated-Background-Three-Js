@@ -1,0 +1,72 @@
+:root {
+    --text-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    color: var(--text-color);
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-image: url(images/wavebackground.jpg); */
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    position: absolute;
+    top: 1rem;
+    left: 60%;
+}
+
+.nav-list {
+    display: flex;
+    gap: 2rem;
+}
+
+li {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.description {
+    position: absolute;
+    top: 35%;
+    left: 5rem;
+    width: 100%;
+    height: 60%;
+    color: white;
+}
+
+.title {
+    font-size: 5rem;
+}
+
+.subtext {
+    font-size: 2rem;
+}
+
+.fa-youtube {
+    color: white;
+    font-size: 5rem;
+    position: absolute;
+    bottom: 0;
+}
+
+/*# sourceMappingURL=/styles.8986bff4.css.map */
